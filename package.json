@@ -1,0 +1,27 @@
+{
+  "name": "rostilucy",
+  "version": "1.0.0",
+  "description": "Rosticería Lucy - Página Web Oficial  Repositorio de la página web de Rosticería del Sabor, una rosticería especializada en pollo rostizado. Aquí encontrarás el menú, opciones de pedido en línea y más información sobre nuestros productos y servicios.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss -i ./frontend/css/mcss.css -o ./frontend/dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DKRblasam/Rostilucy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DKRblasam/Rostilucy/issues"
+  },
+  "homepage": "https://github.com/DKRblasam/Rostilucy#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.0"
+  }
+}
