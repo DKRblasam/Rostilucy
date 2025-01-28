@@ -300,25 +300,6 @@ body {
   }
 
 
-
-  /* Responsividad */
-  @media (max-width: 768px) {
-    .nav-list {
-      flex-direction: column;
-    }
-
-    .submenu {
-      position: static;
-      /* Para apilar en dispositivos móviles */
-      display: none;
-    }
-
-    .nav-list>li:hover .submenu {
-      display: block;
-    }
-  }
-
-
   main {
     margin-top: 100px;  
   }
