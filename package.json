@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "build:css": "npx tailwindcss -i ../frontend/css/mcss.css -o ../frontend/dist/output.css --watch",
+    "build:css": "npx tailwindcss -i ./frontend/css/mcss.css -o ./frontend/dist/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
