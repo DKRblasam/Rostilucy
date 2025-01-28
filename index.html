@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Redirect</title>
   <style>
-    body{
+    body {
       background-color: black;
     }
+
     * {
       margin: 0;
       padding: 0;
@@ -371,10 +372,31 @@
     </div>
   </main>
 </body>
-
-<script src="./frontend/src/typescript/index.js"></script>
 <script>
   const startTime = Date.now();
+  // Función para redirigir
+  function redirigir(start) {
+    // Calcular el tiempo transcurrido
+    const tiempoLimite = 1000;
+    let redirect = true;
+    // Configurar el temporizador para redirigir
+    setTimeout(function () {
+      window.location.href = "./frontend/pages/index.html";
+    }, tiempoLimite);
+    const end = new Date().getTime() - start.getTime();
+    redirect = end > tiempoLimite ? true : false;
+    if (redirect) {
+      // Configurar el temporizador para mostrar el mensaje
+      setTimeout(function () {
+        // Mostrar mensaje
+        const mensajeElement = document.getElementById("mensaje");
+        if (mensajeElement) {
+          mensajeElement.style.display = "block";
+        }
+      }, tiempoLimite);
+    }
+  }
+
 
   window.onload = redirigir;
 </script>
