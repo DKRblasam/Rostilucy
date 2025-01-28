@@ -1,0 +1,21 @@
+[
+  {
+    "nombre": "Producto 1",
+    "descripcion": "Descripción del producto 1",
+    "precio": "$10.00",
+    "imagen": "ruta/a/la/imagen1.png"
+  },
+  {
+    "nombre": "Producto 2",
+    "descripcion": "Descripción del producto 2",
+    "precio": "$20.00",
+    "imagen": "ruta/a/la/imagen2.png"
+  },
+  {
+    "nombre": "Producto 3",
+    "descripcion": "Descripción del producto 3",
+    "precio": "$30.00",
+    "imagen": "ruta/a/la/imagen3.png"
+  }
+]
+

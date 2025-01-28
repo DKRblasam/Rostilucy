@@ -3,11 +3,12 @@
     "target": "es2016",
     "module": "commonjs",
     "strict": true,
+    "resolveJsonModule": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "../frontend/src/Scripts",
+    "outDir": "../frontend/",
   },
-  "include": ["../frontend/src/**/*", "./backend/src/**/*"],
+  "include": ["./frontend/src/**/*", "./config/backend/src/**/*"],
   "exclude": ["./node_modules"]
 }
