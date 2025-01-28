@@ -1,0 +1,25 @@
+.packs-contianer {
+  background-color: aliceblue;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  'subtitle-pack . .'
+  'card-1 card-2 card-3'
+  ;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-left: 100px;
+}
+
+.card-pack {
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(204, 42, 42);
+  transition: .4s ease-in-out;
+}
